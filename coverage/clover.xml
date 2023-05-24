@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1684969741063" clover="3.2.0">
-  <project timestamp="1684969741063" name="All files">
+<coverage generated="1684969924126" clover="3.2.0">
+  <project timestamp="1684969924126" name="All files">
     <metrics statements="10" coveredstatements="10" conditionals="8" coveredconditionals="7" methods="1" coveredmethods="1" elements="19" coveredelements="18" complexity="0" loc="10" ncloc="10" packages="1" files="1" classes="1"/>
     <file name="index.js" path="/Users/julianamorroni/Documents/Cursos 2023/XP-who-likes-it/src/index.js">
       <metrics statements="10" coveredstatements="10" conditionals="8" coveredconditionals="7" methods="1" coveredmethods="1"/>
@@ -13,7 +13,7 @@
       <line num="11" count="1" type="stmt"/>
       <line num="13" count="1" type="cond" truecount="1" falsecount="1"/>
       <line num="14" count="1" type="stmt"/>
-      <line num="20" count="1" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

@@ -13,7 +13,6 @@ function whoLikesIt(input) {
     if (input == 'Alex, Jacob, Mark, Max') {
         return 'Alex, Jacob and 2 others like this'
     }
-
 }
 
 
