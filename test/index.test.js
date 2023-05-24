@@ -11,3 +11,7 @@ test("should return 'Peter likes this' when the array has 1 name 'Peter' ", () =
 test("should return 'Jacob and Alex like this' when the list names have 2 items 'Jacob, Alex' ", () => {
     expect(whoLikesIt('Jacob, Alex')).toBe('Jacob and Alex like this')
 });
+
+test("should return 'Alex, Jacob and 2 others like this' when the list names have more than 4 items 'Alex, Jacob, Mark, Max' ", () => {
+    expect(whoLikesIt('Alex, Jacob, Mark, Max')).toBe('Alex, Jacob and 2 others like this')
+});
