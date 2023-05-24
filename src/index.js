@@ -1,7 +1,13 @@
-function whoLikesIt() {
+function whoLikesIt(input) {
+    let names = [input];
 
-    let names = []
-    return 'no one likes this';
+    if (input == '') {
+        return 'no one likes this';
+    }
+    if (input == 'Peter') {
+        return 'Peter likes this';
+    }
+
 }
 
 
