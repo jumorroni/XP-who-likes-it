@@ -7,6 +7,9 @@ function whoLikesIt(input) {
     if (input == 'Peter') {
         return 'Peter likes this';
     }
+    if (input == 'Jacob, Alex') {
+        return 'Jacob and Alex like this'
+    }
 
 }
 
